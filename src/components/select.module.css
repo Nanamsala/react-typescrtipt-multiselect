@@ -9,6 +9,7 @@
     padding: .5em;
     border-radius: .25em;
     outline: none;
+    margin: .25em;
 }
 
 .container:focus{
@@ -17,6 +18,7 @@
 
 .value{
     flex-grow: 1;
+    text-align: start;
 }
 
 .clear-button{
@@ -32,7 +34,6 @@
 
 .clear-button:hover,
 .clear-button:focus{
-    font-size: 1.5em;
     color: #333;
     transition: .25s;
 }
@@ -88,4 +89,22 @@
 
 .option.selected{
     background-color: aquamarine;
+}
+
+.option-badge{
+    background: none;
+    border: .05em solid gray;
+    border-radius: .25em;
+    margin: .25em;
+}
+
+.option-badge:hover,
+.option-badge:focus{
+    background-color: #444;
+    color: #ddd;
+    transition: .25s;
+}
+
+.option-badge .clear-button{
+    padding-left: .25em;
 }
