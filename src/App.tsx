@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-    <h1>Hello World</h1>
+    <h1>Multi Select Typescript React Practice</h1>
     <Select options = {options} value={value} onChange = { o => setValue(o)}/>
     <Select multiple options = {options} value={value2} onChange = { o => setValue2(o)}/>
     </div>
